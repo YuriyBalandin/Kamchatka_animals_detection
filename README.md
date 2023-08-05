@@ -1,12 +1,11 @@
-# Решение хакатона WildHack - кейс от Кроноцкого заповедника по распознаванию животных с фотоловушек.
+# WildHack hackathon solution - a case from the Kronotsky Reserve on recognizing animals from camera traps.
 
-Проблема, которую необходимо было решить, - с помощью искусственного интеллекта отличать фотографии, на которых отсутствуют животные или кадры плохого качества. После этого необходимо было детектировать основных животных на картинках или видео с фотоловушек.
+The problem that needed to be solved was to use artificial intelligence to distinguish between photos that lack animals or poor quality frames. After that, it was necessary to detect the main animals in pictures or videos from camera traps.
 
-Решение основано на использовании модели yolov5, обученной на размеченных данных, пользовательский интерфейс реализован с использованием streamlit.
+The solution is based on the use of the yolov5 model trained on labeled data, the user interface is implemented using streamlit.
 
-Для запуска:
-Файл main.py нужно запустить командой streamlit run main.py
+For start:
+The main.py file must be run with the streamlit run main.py command
 
-В папке models лежат веса обученной модели.
-В папке notebooks лежат ноутбуки с разработкой модели.
-
+The models folder contains the weights of the trained model.
+Notebooks with model development are in the notebooks folder.
